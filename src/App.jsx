@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 
+import DonutExample from './chart'
+
 function App() {
   let [count, setCount] = useState([1,2,3,4])
 
@@ -15,6 +17,7 @@ function App() {
       <div>
        {count}
       </div>
+      <DonutExample />
     </>
   )
 }
